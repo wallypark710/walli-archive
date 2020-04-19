@@ -4,7 +4,9 @@ require(`dotenv`).config({
 
 module.exports = {
   siteMetadata: {
-    siteTitleAlt: `Minimal Blog - Gatsby Theme`,
+    siteTitle:`WALLi`,
+    siteTitleAlt: `WALLi : ARCHIVE`,
+    author:`@walli`,
   },
   plugins: [
     {
@@ -15,19 +17,15 @@ module.exports = {
             title: `Blog`,
             slug: `/blog`,
           },
-          {
-            title: `About`,
-            slug: `/about`,
-          },
+          // {
+          //   title: `About`,
+          //   slug: `/about`,
+          // },
         ],
         externalLinks: [
           {
-            name: `Twitter`,
-            url: `https://twitter.com/lekoarts_de`,
-          },
-          {
             name: `Instagram`,
-            url: `https://www.instagram.com/lekoarts.de/`,
+            url: `https://www.instagram.com/walli_hahahaha`,
           },
         ],
       },
@@ -51,13 +49,8 @@ module.exports = {
         display: `standalone`,
         icons: [
           {
-            src: `/android-chrome-192x192.png`,
+            src: `/walli-icon.png`,
             sizes: `192x192`,
-            type: `image/png`,
-          },
-          {
-            src: `/android-chrome-512x512.png`,
-            sizes: `512x512`,
             type: `image/png`,
           },
         ],
